@@ -1,0 +1,265 @@
+.body {
+	background-color: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.navbar-brand img {
+	max-width: 70%;
+	height: auto;
+	margin: -13px;
+}
+
+.about-inline {
+	padding: 80px 0;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.card-product .img-wrap {
+	border-radius: 3px 3px 0 0;
+	overflow: hidden;
+	position: relative;
+	height: 250px;
+	text-align: center;
+}
+
+.card-product .img-wrap img {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.card-product .info-wrap {
+	overflow: hidden;
+	padding: 15px;
+}
+
+.card-product .bottom-wrap {
+	padding: 15px;
+	border-top: 1px solid #eee;
+}
+
+.space80 {
+	margin-bottom: 80px;
+}
+
+.video-action {
+    background-image: url(https://e0.pxfuel.com/wallpapers/153/1012/desktop-wallpaper-dawn-coffee-morning-cup-hot-coffee-cup-good-morning-for-section-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D1%8F.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.testimonials-color {
+	background-color: #a82d49;
+}
+
+.about-inline {
+	padding: 80px 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.space100 {
+	margin-bottom: 100px;
+}
+
+.carousel-item img {
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease- in-out;
+}
+
+.carousel-item img:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.quote2 {
+	margin-top: 10px;
+	padding: 15px;
+	background-color: #ffffff;
+	border: 10px solid #a82d49;
+	border-radius: 10px;
+}
+
+.quote2 p {
+	margin-bottom: 10;
+}
+
+.quote2 .author {
+	display: block;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+.parallax2 {
+    background: url(https://static.vecteezy.com/system/resources/previews/026/466/922/non_2x/cup-of-coffee-espresso-beans-web-banner-with-copy-space-generative-ai-free-photo.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.parallax-content2 {
+	padding: 70px 0;
+	position: relative;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.video-action {
+	text-align: center;
+}
+
+.intro-video-pop {
+	display: inline-block;
+	margin-top: 150px;
+	padding: 10px 20px;
+	background-color: rgb(168, 45, 73);
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.intro-video-pop i {
+	margin-right: 10px;
+}
+
+.intro-video-pop:hover {
+	background-color: #6694c5;
+}
+
+.row {
+	margin-left: 100px;
+}
+
+.footer {
+	background-color: #a82d49;
+	padding: 30px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.footerP a {
+	color: #fff;
+	padding: 0 30px 0 0;
+}
+
+.space30 {
+	margin-bottom: 30px;
+}
+
+.footer-social a {
+	font-size: 25px;
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-top: 30px;
+	color: #fff;
+}
+
+.intro3 {
+	background: url(/images/CafePrincipal.jpg) no-repeat center;
+	padding: 150px 0 150px;
+	background-size: cover;
+	color: #43121d;
+}
+
+#stats2 {
+	padding: 40px 0;
+	color: #fff;
+}
+
+.bg-primary {
+	background: rgb(168, 45, 73);
+}
+
+.btn.btn-primary {
+	background: #a82d49;
+	border: 3px solid #a82d49;
+	color: #fff;
+}
+
+.img-responsiva,
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 80px;
+}
+
+.navbar-lg .navbar-brand {
+	padding: 5px 0 0;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+#about img {
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease- in-out;
+}
+
+#about img:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.quote2 .slick-dots li.slick-active button {
+	opacity: 1;
+}
+
+.quote2 .slick-dots li button {
+	border: none;
+	width: 15px;
+	height: 15px;
+	font-size: 0px;
+	padding: 0;
+	border-radius: 50%;
+	opacity: 0.2;
+	background-color: #ffffff;
+}
+
+.quote2 .slick-dots li {
+	float: left;
+	margin-right: 7px;
+}
+
+.subscribe-elt2 .intro-newsletter input {
+	height: 50px;
+	padding: 0 20px;
+	font-size: 14px;
+	letter-spacing: 0px;
+	font-weight: 400;
+	width: 100%;
+	border: none;
+	border-radius: 0px;
+	background: transparent;
+	border: 3px solid #e5e5e5;
+	color: #000;
+	font-weight: 700;
+}
+
