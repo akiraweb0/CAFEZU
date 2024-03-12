@@ -28,4 +28,15 @@ document.getElementById("menu-item-almacenes").addEventListener("click", () => {
     })
 })
 
+document.getElementById("menu-item-charlie").addEventListener("click", () => {
+    fetch("pages/charlie.html")
+    .then(response => response.text())
+    .then(data =>{
+        document.getElementById("main-content").innerHTML = data
+        let script = document.createElement("script")
+        script.src = "pages/charlie.js"
+        document.getElementById("main-content").appendChild(script)
+    })
+})
+
   

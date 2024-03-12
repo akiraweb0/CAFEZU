@@ -16,8 +16,8 @@ function productoscafe() {
             let fila = "<tr>"
             fila += "<td>" + item.idproducto + "</td>"
             fila += "<td>" + item.nombre + "</td>"
-            fila += "<td>" + item.descuento + "</td>"
-            fila += "<td>" + item.stock + "</td>"
+            fila += "<td>" + item.descripcion + "</td>"
+            fila += "<td>" + item.precio + "</td>"
             fila += "</tr>"
             contenidoTabla += fila
             console.log(contenidoTabla)

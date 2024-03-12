@@ -1,7 +1,7 @@
 <?php
 
-  header('Access-Control-Allow-Origin: *');
-$cn = new PDO("mysql:host=localhost;dbname=cafeteria","root","");
+include "config.php";
+
 $sql = "SELECT * FROM almacenes";
 $rs = $cn->prepare($sql); //Prepara la instruccion sql
 $rs->execute(); //Ejecuta una accion preparada

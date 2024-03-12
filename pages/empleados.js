@@ -17,7 +17,7 @@ function empleadoscafe() {
             fila += "<td>" + item.nombres + "</td>"
             fila += "<td>" + item.correo + "</td>"
             fila += "<td>" + item.puesto + "</td>"
-            fila += "<td>" + item.fechadeinicio + "</td>"
+            fila += "<td>" + item.fechainicio + "</td>"
             fila += "</tr>"
             contenidoTabla += fila
             console.log(contenidoTabla)
