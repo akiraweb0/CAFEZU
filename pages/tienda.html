@@ -1,0 +1,58 @@
+<header id="page-header">
+    <div class="container">
+        <h2>Tienda</h2>
+    </div>
+</header>
+<section class="padded">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Categorias</h3>
+                <ul class="list-group" id="lista-categorias">
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <h3 id="categoria-nombre"></h3>
+                <p id="categoria-descripcion"></p>
+
+                <div class="row row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-4"
+                    id="grid-card-productos">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="vistaRapidaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title fs-5" id="producto-nombre">Modal title</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <img src="" alt="" class="img-fluid" id="producto-imagen">
+                    </div>
+                    <div class="col">
+                        <table class="table">
+                            <tr><th>Precio</th><td id="producto-precio"></td></tr>
+                            <tr><th>Stock</th><td id="producto-stock"></td></tr>
+                            <tr><th>Detalle</th><td id="producto-detalle"></td></tr>
+                            <tr><th>Categoría</th><td id="producto-categoria"></td></tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="tienda.js"></script>

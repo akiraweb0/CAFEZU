@@ -17,5 +17,15 @@ $(document).ready(function(){
                 });
             });
 
+document.getElementById("menu-item-almacenes").addEventListener("click", () => {
+    fetch("pages/almacenes.html")
+    .then(response => response.text())
+    .then(data =>{
+        document.getElementById("main-content").innerHTML = data
+        let script = document.createElement("script")
+        script.src = "pages/almacenes.js"
+        document.getElementById("main-content").appendChild(script)
+    })
+})
 
   
